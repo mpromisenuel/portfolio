@@ -42,7 +42,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+234 509 416 403",
   email: "mpromisenuel@gmail.com",
 };
