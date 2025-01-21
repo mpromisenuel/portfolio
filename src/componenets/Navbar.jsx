@@ -1,5 +1,5 @@
-import React from 'react'
-import Logo from "../assets/Logo.png"
+// import React from 'react'
+// import Logo from "../assets/Logo.png"
 import {FaLinkedin} from "react-icons/fa"
 import {FaSquareXTwitter} from "react-icons/fa6"
 import { FaGithub } from 'react-icons/fa'
@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href="">
         <FaLinkedin/>
         </a>
-        <a href="https://github.com/mpromisenuel" target='_blank'>
+        <a href="https://www.linkedin.com/in/promise-michael-44569a296/" target='_blank'>
         <FaGithub/>
         </a>
         <a href="">
