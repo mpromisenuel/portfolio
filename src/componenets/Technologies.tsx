@@ -4,6 +4,7 @@ import { BiLogoVuejs } from "react-icons/bi";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiNuxtdotjs } from "react-icons/si";
 import { animate, motion } from 'framer-motion';
+import { SiRedux } from 'react-icons/si';
 const iconVariants=(duration)=>({
     initial:{y:-10},
     animate:{
@@ -34,6 +35,9 @@ const Technologies = () => {
         </motion.div>
         <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
         <SiNuxtdotjs  className="text-4xl text-green-700"/>
+        </motion.div>
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+        <SiRedux  className="text-4xl text-violet-800"/>
         </motion.div>
       </motion.div>
     </div>

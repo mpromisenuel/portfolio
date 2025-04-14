@@ -1,5 +1,4 @@
-import React from 'react'
-import AboutMe from "../assets/about.jpg"
+import AboutMe from "../assets/promise.jpeg"
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
 

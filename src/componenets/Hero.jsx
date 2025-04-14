@@ -1,7 +1,6 @@
-import React from 'react'
 import {HERO_CONTENT} from "../constants"
-import Promise from "../assets/promise.jpg"
-import { delay, motion } from "framer-motion"
+import Promise from "../assets/promise.jpeg"
+import {  motion } from "framer-motion"
 const container=(delay)=>({
     hidden:{x:-100,opacity:0},
     visible:{
@@ -25,7 +24,7 @@ const Hero = () => {
             <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-2 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
           </div>
         </div>
-        <div className='w-full lg:w-1/2 lg:p-8'>
+        <div className='w-full lg:w-1/2 lg:p-10'>
           <div className="flex justify-center">
             <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}} className="rounded-4xl" src={Promise} alt='promise'/>
           </div>
